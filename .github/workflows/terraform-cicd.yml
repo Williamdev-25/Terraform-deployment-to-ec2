@@ -16,10 +16,10 @@ on:
     paths-ignore:
     - 'README.md'
     - '.md'   
-  workflow_run: # Triggered when manually triggered from the Actions tab
-    workflows: ["gitleaks"] # Name of the workflow that
-    types:
-      - completed  
+  # workflow_run: # Triggered when manually triggered from the Actions tab
+  #   workflows: ["gitleaks"] # Name of the workflow that
+  #   types:
+  #     - completed  
 
 env:
   TF_LOG: INFO
