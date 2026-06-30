@@ -5,8 +5,8 @@ variable "region" {
 
 }
 
-# variable "instance_type" {
-#   type        = string
-#   default     = "t3.micro"
-#   description = "ec2 instance type"
-# }
+variable "instance_type" {
+  type        = string
+  default     = "t3.micro"
+  description = "ec2 instance type"
+}
